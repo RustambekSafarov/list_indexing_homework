@@ -6,8 +6,8 @@
     Returns:
         list: return answer
 */
-List func(List list1){
-    List func( List list1){
+
+List func( List list1){
     int x = -1;
     int y = list1.length - 1;
     bool z = false;
@@ -23,5 +23,7 @@ List func(List list1){
     return list1;
     
 }
+
+void main() {
+    print(func([1,0,0,1,0]));
 }
-void main() {}
