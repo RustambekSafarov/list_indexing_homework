@@ -13,7 +13,7 @@ bool func( List list1){
     bool v = false;
     while(x < y){
         x++;
-        if(list1[x]==x){
+        if(list1[x]==list1[0] && list1[x]==list1[1]&&list1[x]==list1[2]&&list1[x]==list1[3]&&list1[x]==list1[4]){
             return z;
         }            
         
@@ -23,5 +23,5 @@ bool func( List list1){
     
 }
 void main() {
-    print(func([1,2,1,1,1]));
+    print(func(['x','x','x','x','x']));
 }
