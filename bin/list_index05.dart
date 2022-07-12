@@ -10,5 +10,5 @@
     return list1[i];
 }
 void main() {
-    print(func([1,2,3,4],2))
+    print(func([1,2,3,4],2));
 }
