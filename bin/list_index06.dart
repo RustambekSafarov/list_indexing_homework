@@ -9,7 +9,7 @@
 List func( List list1){
     int x = -1;
     int y = list1.length - 1;
-    String z = 'True';
+    bool z = true;
     while(x < y){
         x++;
         if(list1[x]==1){
