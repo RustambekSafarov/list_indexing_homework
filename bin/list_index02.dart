@@ -6,8 +6,10 @@
     Returns:
         list: return answer
 */
-int func(List list1){
-    return list1[0]; 
+List func(List list1){
+    List x = [];
+    x.add(list1[0]);
+    return x; 
 }
 void main() {
     print(func([1,2,3,4,5])); 
