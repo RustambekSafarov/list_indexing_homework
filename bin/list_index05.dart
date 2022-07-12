@@ -6,5 +6,9 @@
         i (int): parameter
     Returns:
         list: return answer
-*/
-void main() {}
+*/List func(list1,i){
+    return list1[i];
+}
+void main() {
+    print(func([1,2,3,4],2))
+}
