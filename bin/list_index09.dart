@@ -8,16 +8,18 @@
 */
 bool func( List list1){
     int x = -1;
+    int i = 0;
     int y = list1.length - 1;
     bool z = true;
     bool v = false;
-    while(x < y){
+    while(x < y && i<y){
         x++;
-        if(list1[x]==list1[0] && list1[x]==list1[1]&&list1[x]==list1[2]&&list1[x]==list1[3]&&list1[x]==list1[4]){
-            return z;
-        }            
+        i ++ ;           
         
     }
+    if(list1[x]==list1[i] && list1[x]==list1[i]&&list1[x]==list1[i]&&list1[x]==list1[i]&&list1[x]==list1[i]){
+            return z;
+        }
     
     return v;
     
