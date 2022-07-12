@@ -8,7 +8,7 @@
 */
 List func(list1){
     List x = [];
-    (x.add(list1.last)).toString();
+    x.add(list1.last);
     return x;
 }
 void main() {
