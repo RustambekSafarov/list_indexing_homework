@@ -6,8 +6,8 @@
     Returns:
         list: return answer
 */
-List func(None){
-    return None;
+List func(none){
+    return none;
 }
 void main() {
     print(func([]));
