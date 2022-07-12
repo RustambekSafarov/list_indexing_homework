@@ -6,4 +6,22 @@
     Returns:
         bool: return answer
 */
-void main() {}
+bool func( List list1){
+    int x = -1;
+    int y = list1.length - 1;
+    bool z = true;
+    bool v = false;
+    while(x < y){
+        x++;
+        if(list1[x]==x){
+            return z;
+        }            
+        
+    }
+    
+    return v;
+    
+}
+void main() {
+    print(func([1,2,1,1,1]));
+}
