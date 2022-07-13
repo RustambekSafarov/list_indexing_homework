@@ -6,14 +6,16 @@
     Returns:
         int: return answer
 */
-int func(list_num){
+List func(list_num){
     int i = 0;
+    List x = [];
     if(list_num.first < list_num.last){
         i = list_num.last;
     }else{
         i = list_num.first;
+        x.add(i);
     }
-    return i;
+    return x;
 }
 void main() {
     print(func([6,2,3,4,5]));
